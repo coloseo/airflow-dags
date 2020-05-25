@@ -1,0 +1,20 @@
+{
+    "python.pythonPath": "/Users/ging/.pyenv/versions/3.8.0/bin/python",
+    "python.venvPath": ".venv",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/Users/ging/.local/bin/flake8",
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/Users/ging/.local/bin/black",
+    "editor.formatOnSave": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
